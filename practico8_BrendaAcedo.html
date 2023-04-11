@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title> Ejercicio 1 </title>
+    </head>
+ <body>
+     <form action="ejercicio_formulario.html" method="get">
+     Nombre:<input type="text" name="usuario" size="5" maxlength="30" required>
+     <br>
+     Apellido:<input type="text" name="usuario" size="5" maxlength="30" required>
+     <br>
+     Edad:<input type="text" name="usuario" size="5" maxlength="30" required>
+     <br>
+     
+     <SELECT NAME="Sexo">
+         <OPTION VALUE="II" SELECTED>Sexo
+         <OPTION VALUE="ITIG">Femenino
+         <OPTION VALUE="ITIS">Masculino
+
+        </SELECT>
+
+
+     <br>
+     Radio:<p><input type="radio" name="radio" value="Menor 18 años" checked="checked">Menor 18 años 
+        <p><input type="radio" name="radio" value="Mayor 18 años">Mayor 18 años
+     <br/>
+     <SELECT SIZE="3" NAME="idiomas[]" MULTIPLE >
+         <OPTION VALUE="ingles" SELECTED>Inglés
+         <OPTION VALUE="frances">Francés
+         <OPTION VALUE="aleman">Alemán
+         <OPTION VALUE="holandes">Holandés
+        </SELECT>
+    <br/>
+       
+        <label><input type="checkbox" id="cbox1" value="first_checkbox"> Auto </label><br>
+        <label></label> <input type="checkbox" id="cbox2" value="first_checkbox"> Camioneta </label><br>
+        <label><input type="checkbox" id="cbox3" value="second_checkbox"> <label for="cbox3"> Camion</label><br>
+      
+     Comentarios:
+     <br>
+     <textarea name="Comentarios" cols="30" rows="10"></textarea>
+     <p><input type="submit" value="Enviar">
+     <input type="reset" value="Borrar"><p>
+     </form>
+
+     
+  </body>
+</html>
+
+
+
+
+  
+
+
+        
